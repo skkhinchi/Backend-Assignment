@@ -12,7 +12,26 @@ Language and Frameworks: Spring Boot,JS,HTML and CSS,Java
 
 
 1.Download
-2.Import Project as Existing Project
-3.Update Maven (for dependency installation)
-4.Run As Spring Boot Application 
-5. Go To Browser Put (http://localhost:8080/)
+
+2.create a Table with (mydata) name
+  My Database name Logindata
+
+
+----------------------------------------------------------------
+CREATE TABLE `logindata`.`mydata` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(45) NOT NULL,
+  `firstname` VARCHAR(45) NOT NULL,
+  `lastname` VARCHAR(45) NOT NULL,
+  `age` INT NOT NULL,
+  `password` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
+-------------------------------------------------------
+
+3.Import Project as Existing Project
+
+4.Update Maven (for dependency installation)
+
+5.Run As Spring Boot Application 
+
+6. Go To Browser Put (http://localhost:8080/)
