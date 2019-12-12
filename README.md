@@ -35,3 +35,11 @@ CREATE TABLE `logindata`.`mydata` (
 5.Run As Spring Boot Application 
 
 6. Go To Browser Put (http://localhost:8080/)
+
+7. If You are New User then Register by (NEW REGISTRATION ) Button or (http://localhost:8080/register)
+
+8. After Registration Go to (http://localhost:8080/login) for login oAuth2 Security.
+
+9.After Verification Go to (http://localhost:8080/app-login) and sign in with Credential.
+
+10. You can Show all users/ Edit User. 
