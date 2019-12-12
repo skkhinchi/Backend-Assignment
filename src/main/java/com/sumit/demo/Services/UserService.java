@@ -28,7 +28,7 @@ public class UserService
 		List<User> users=new ArrayList<User>();// users ArrayList k obj ko hold karega
 		for(User user:userRepository.findAll()) //this is iterating 
 		{
-			users.add(user); 
+			users.add(user);
 		}
 		return users;
 	}
