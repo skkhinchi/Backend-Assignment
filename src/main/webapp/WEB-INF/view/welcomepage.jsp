@@ -38,6 +38,13 @@
 
 				<h1>Welcome</h1>
 				<h3>Good Morning</h3>
+				<form action="/login">
+					<button type="submit" class="btn btn-primary ">LOGIN</button>
+				</form>
+			</br>
+				<form action="/register">
+					<button type="submit" class="btn btn-primary">REGISTER</button>
+				</form>
 			</div>
 		</div>
 
